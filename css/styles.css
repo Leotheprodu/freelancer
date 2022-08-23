@@ -37,9 +37,9 @@ h1,h2,h3 {
     max-width: 120rem;
     margin: 0 auto;
 }
-.boton {
+/* .boton {
 
-}
+} */
 
 .nav-bg {
     background-color: var(--secundario);

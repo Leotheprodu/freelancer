@@ -15,6 +15,10 @@ html {
     box-sizing: border-box; /* Esto es un Hack para que 1 rem sea igual a 10 px  */
     scroll-snap-type: y proximity;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* Scroll Snap */
 
 .servicios,
@@ -22,10 +26,6 @@ html {
 .formulario {
     scroll-snap-align: center;
    
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
 }
 
 body {
